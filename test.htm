@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<style>
+			article {
+				width: 580px;
+				height: 580px;
+				padding: 10px;
+				background-color: gray;
+			}
+
+			section:before,
+			section:after {
+				content: "";
+				display: table;
+			}
+
+			section:after {
+				clear: both;
+			}
+
+			section {
+				*zoom: 1;
+			}
+
+			section {
+				width: 558px;
+				padding: 10px;
+				border: 1px solid black;
+				background-color: yellow;
+			}
+
+			.profile-pic-tiny {
+				width: 32px;
+				height: 32px;
+				float: left;
+			}
+
+			.comment-area {
+				margin-left: 10px;
+				width: 516px;
+				height: 200px;
+				background-color: white;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<article>
+			<section>
+				<div class="profile-pic-tiny">
+					<img src="images/tiny-profile-pic.png">
+				</div>
+				<div class="comment-area">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+			</section>
+		</article>
+	</body>
+</html>
